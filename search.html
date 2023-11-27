@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Link-style -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="search.css">
+    <!-- Link-font-(not google font) -->
+    <link href="https://fonts.cdnfonts.com/css/lota-grotesque-alt-1" rel="stylesheet">
+    <!-- Link-font-(google font) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
+
+    <link href="https://www.dafontfree.net/embed/b3B0aXZlbnVzLWJvbGQmZGF0YS83NTkvby8xODAxMjQvT1BUSVZlbnVzLUJvbGRFeHRlbmRlZC5vdGY" rel="stylesheet" type="text/css"/>
+    <title>TriapkA</title>
+    <link rel="icon" href="./img/tshirt.png">
+</head>
+<body>
+   
+
+    <header class="header_size header_position header_font">
+        <div class="main_header_footer_size main_header_position">
+            <div class="main_logo main_logo_font">
+                <a class="main_logo_position" href="./index.html">
+                    <img src="/img/tshirt.png" alt="">
+                    <h1>TriapkA</h1>
+                </a>
+            </div>
+            <nav class="main_nav_size main_nav_position main_nav_font">
+                <div class="header_menu_item">
+                    <a href="./search.html">Man</a>
+                </div>
+                <div class="header_menu_item">
+                    <a href="#">Woman</a>
+                </div>
+                <div class="header_menu_item">
+                    <a href="#">Brands</a>
+                </div>
+                <div class="header_menu_item">
+                    <a href="#">Sale</a>
+                </div>
+            </nav>
+            <div class="navigation">
+                <div class="profile">
+                    <a  class="sign_in" ><img src="/img/user.png" alt=""></a>
+                    <a href="#"><img src="/img/shopping-cart.png" alt=""></a>
+                    <div class="header_burger">
+                        <svg class="menu" xmlns="http://www.w3.org/2000/svg" viewBox=""><path d="M36,2H0V0h36V2z M36,18H0v2h36V18z M36,9H0v2h36V9z"></path></svg>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="back_mob_blaclout"></div>
+            <div class="kategor_mob">
+                <svg class="close_menu" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                    <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                </svg>
+                <div class="main_nav_mob_size main_nav_mob_position main_nav_mob_font">
+                    <div class="header_menu_item">
+                        <a href="#">Man</a>
+                    </div>
+                    <div class="header_menu_item">
+                        <a href="#">Woman</a>
+                    </div>
+                    <div class="header_menu_item">
+                        <a href="#">Brands</a>
+                    </div>
+                    <div class="header_menu_item">
+                        <a href="#">Sale</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="login_register_div"> 
+            <div class="login_register">
+                <svg class="close_login" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                    <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                </svg>
+                <form class='log_and_reg' action="" method="post">
+                    <div id="sing">
+                        <h3>Вхід</h3> 
+                        <div class="group"> 
+                            <label id="login" for="">Ел.пошта:</label>
+                            <input type="email" placeholder="..." name="uname" required>
+                        </div>
+                        <div class="group">
+                            <label id="password" for="">Пароль:</label>
+                            <input type="password" placeholder="..." name="uname" required>
+                        </div>
+                    </div>
+                    <div class="btn_sing">
+                        <input type="submit" value="Увійти" class="submit">
+                        <br>
+                        <p>-або-</p>
+                        <br>
+                        <a href="#" class="submit btn_registr">Зареєструватися</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="register_login_div"> 
+            <div class="register_login">
+                <svg class="close_registr" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                    <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                </svg>
+                <form class='log_and_reg' action="" method="post">
+                    <div id="sing">
+                        <h3>Вхід</h3> 
+                        <div class="group"> 
+                            <label id="login" for="">Ел.пошта:</label>
+                            <input type="email" placeholder="..." name="uname" required>
+                        </div>
+                        <div class="group">
+                            <label id="password" for="">Пароль:</label>
+                            <input type="password" placeholder="..." name="uname" required>
+                        </div>
+                        <div class="group">
+                            <label id="password" for="">Підтвердіть пароль:</label>
+                            <input type="password" placeholder="..." name="uname" required>
+                        </div>
+                    </div>
+                    <div class="btn_sing">
+                        <input type="submit" value="Зареєструватися" class="submit">
+                        <br>
+                        <p>-або-</p>
+                        <br>
+                        <a href="#" class="submit btn_login">Увійти</a>
+                        
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="search_section ">
+
+        <div class="search_container container_position">
+            <div class="title_search">
+                <h1>Woman's T-shirts</h1>
+            </div>
+            <div class="block_hide_filter">
+                <div class="div_hide_filter">
+                    <button type="button" class="button_hide_filter" aria-expanded="false" aria-label="Hide Filters" > <span>Show Filters</span></button>
+                </div>
+            </div>
+            
+            <div class="lauout">
+                <div class="sidebar " hidden>
+                    <div class="block_hide_filter block_hide_filter_mob">
+                        <div class="div_hide_filter">
+                            <button type="button" class="button_hide_filter" aria-expanded="false" aria-label="Hide Filters" > <span>Hide Filters</span></button>
+                        </div>
+                    </div>
+                    <div class="sex_check">
+                        <h5 class="title_check">Sex</h5>
+                        <div class="sex-wall">
+                            <div class="form-check-sex ">
+                                <input class="form-check-input" type="checkbox" value="" id="Woman" checked>
+                                <label class="form-check-label" for="Woman">Woman</label>
+                            </div>
+                            <div class="form-check-sex ">
+                                <input class="form-check-input" type="checkbox" value="" id="Man">
+                                <label class="form-check-label" for="Man">Man</label>
+                            </div>
+                            <div class="form-check-sex ">
+                                <input class="form-check-input" type="checkbox" value="" id="Other">
+                                <label class="form-check-label" for="Other">Other</label>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="price_check">
+                        <h5 class="title_check">Price</h5>
+                        <div class="price-wall">
+                            <div class="form-check-price ">
+                                <input class="form-check-input" type="checkbox" value="" id="Poniżej_129_zł" >
+                                <label class="form-check-label" for="Poniżej_129_zł">Poniżej 129 zł</label>
+                            </div>
+                            <div class="form-check-price ">
+                                <input class="form-check-input" type="checkbox" value="" id="129_zł-399_zł">
+                                <label class="form-check-label" for="129_zł-399_zł">129 zł - 399 zł</label>
+                            </div>
+                            <div class="form-check-price ">
+                                <input class="form-check-input" type="checkbox" value="" id="399_zł-599_zł">
+                                <label class="form-check-label" for="399_zł-599_zł">399 zł - 599 zł</label>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="brands_check">
+                        <h5 class="title_check">Brands</h5>
+                        <div class="brands-wall">
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Nike" >
+                                <label class="form-check-label" for="Nike">Nike</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Adidas">
+                                <label class="form-check-label" for="Adidas">Adidas</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Puma">
+                                <label class="form-check-label" for="Puma">Puma</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Nike" >
+                                <label class="form-check-label" for="Nike">Nike</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Adidas">
+                                <label class="form-check-label" for="Adidas">Adidas</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Puma">
+                                <label class="form-check-label" for="Puma">Puma</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Adidas">
+                                <label class="form-check-label" for="Adidas">Adidas</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Puma">
+                                <label class="form-check-label" for="Puma">Puma</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Nike" >
+                                <label class="form-check-label" for="Nike">Nike</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Adidas">
+                                <label class="form-check-label" for="Adidas">Adidas</label>
+                            </div>
+                            <div class="form-check-brands ">
+                                <input class="form-check-input" type="checkbox" value="" id="Puma">
+                                <label class="form-check-label" for="Puma">Puma</label>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="size_check">
+                        <h5 class="title_check">Size</h5>
+                        <div class="size-wall">
+                            <button type="button" class="button-check-size" onclick="toggleActiveClass(this)">XXS</button> 
+                            <button type="button" class="button-check-size" onclick="toggleActiveClass(this)">XS</button>
+                            <button type="button" class="button-check-size" onclick="toggleActiveClass(this)">S</button>
+                            <button type="button" class="button-check-size" onclick="toggleActiveClass(this)">M</button>
+                            <button type="button" class="button-check-size" onclick="toggleActiveClass(this)">L</button>
+                            <button type="button" class="button-check-size" onclick="toggleActiveClass(this)">XL</button>
+                            <button type="button" class="button-check-size" onclick="toggleActiveClass(this)">XXL</button>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="catalog container_position">
+                    <div class="catalog_wall">
+                        <a class="catalog_item" href="./item.html">
+                            <img src="./img/footbolka.jpg" alt="">
+                            <p>Black T-shirt</p> 
+                            <p>Prise: 20$</p>  
+                        </a>
+                        <a class="catalog_item" href="#">
+                            <img src="./img/footbolka.jpg" alt="">
+                            <p>Black T-shirt</p> 
+                            <p>Prise: 20$</p> 
+                        </a>
+                        <a class="catalog_item" href="#">
+                            <img src="./img/footbolka.jpg" alt="">
+                            <p>Black T-shirt</p> 
+                            <p>Prise: 20$</p> 
+                        </a>
+                        <a class="catalog_item" href="#">
+                            <img src="./img/footbolka.jpg" alt="">
+                            <p>Black T-shirt</p> 
+                            <p>Prise: 20$</p>  
+                        </a>
+                        <a class="catalog_item" href="#">
+                            <img src="./img/footbolka.jpg" alt="">
+                            <p>Black T-shirt</p> 
+                            <p>Prise: 20$</p> 
+                        </a>
+                        <a class="catalog_item" href="#">
+                            <img src="./img/footbolka.jpg" alt="">
+                            <p>Black T-shirt</p> 
+                            <p>Prise: 20$</p> 
+                        </a>
+                        <a class="catalog_item" href="#">
+                            <img src="./img/footbolka.jpg" alt="">
+                            <p>Black T-shirt</p> 
+                            <p>Prise: 20$</p> 
+                        </a>
+                        <a class="catalog_item" href="#">
+                            <img src="./img/footbolka.jpg" alt="">
+                            <p>Black T-shirt</p> 
+                            <p>Prise: 20$</p> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class=" footer_section">
+        <div class="main_header_footer_size main_footer_position">
+            <div class="footer_nav footer_nav_logo ">
+                <div class="main_logo main_logo_font">
+                    <a class="main_logo_position" href="#">
+                    <img src="/img/tshirt.png" alt="">
+                    <h1>TriapkA</h1>
+                    </a>
+                </div>
+            </div>
+            <nav class="footer_nav">
+                <div class="nav_footer_one nav_footer_block">
+                    <h4 class="title_footer_block_one">Products</h4>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                </div>
+                <div class="nav_footer_two nav_footer_block">
+                    <h4 class="title_footer_block_two">Recommended</h4>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                        
+                </div>
+                <div class="nav_footer_three nav_footer_block">
+                    <h4 class="title_footer_block_three">Support</h4>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                </div>
+                <div class="nav_footer_four nav_footer_block">
+                    <h4 class="title_footer_block_four">Company</h4>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                    <a href="#">Fotbolka</a>
+                </div>
+            </nav>
+            <div class="footer_nav footer_nav_logo">
+                <div class="main_logo main_logo_font">
+                    <a class="main_logo_position" href="#">
+                    <img src="/img/tshirt.png" alt="">
+                    <h1>TriapkA</h1>
+                    </a>
+                </div>
+            </div>
+        </div>
+       <div class="footer_copyright">
+
+            <p>© 2023</p>
+            
+       </div>
+
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</body>
+</html>
