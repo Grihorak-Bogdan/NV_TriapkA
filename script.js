@@ -35,22 +35,18 @@ $(document).ready(function(){
    
     
 });
-// CHeck-3
-  $buttonCheckSize = $('.button-check-size')
+$(document).ready(function() {
+  // Функция для смены класса 'is-selected' у элементов с классом 'button-size'
+  $('.button-size').on('click', function() {
+      $('.button-size').removeClass('is-selected');
+      $(this).addClass('is-selected');
+  });
 
-  function toggleActiveClass(buttonCheckSize) {
-    // Используем jQuery для переключения класса "is-selected"
-    $(buttonCheckSize).toggleClass('is-selected');
-}
-
-//
-$buttonSize = $('.button-size')
-function toggleActiveClass(buttonSize) {
-  
-  $('.button-size').removeClass('is-selected');
-
-  $(buttonSize).addClass('is-selected');
-}
+  // Функция для переключения класса 'is-selected' у элементов с классом 'button-check-size'
+  $('.button-check-size').on('click', function() {
+      $(this).toggleClass('is-selected');
+  });
+});
 
 
 
